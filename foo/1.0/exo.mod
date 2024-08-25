@@ -18,7 +18,11 @@
 	)
 	; repositories or modules
 	:sources (
+		:github (
+			:exo-repo "deivastra/exo-repo" :branch "master")
 	)
 	:dependencies (
+		:exo-repo (
+			:bar "0.1")
 	)
 )
