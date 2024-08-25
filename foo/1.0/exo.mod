@@ -22,7 +22,7 @@
 			:exo-repo "deivastra/exo-repo" :branch "master")
 	)
 	:dependencies (
-		:exo-repo (
+		:exo-repo2 (
 			:bar "0.1")
 	)
 )
