@@ -10,19 +10,13 @@
 		:use (:cl)
 		:authors (
 			(:name "Deiv Astra"))
-		:links ()
-	)
-	:properties (
-		:p1 "v1"
-		:p2 "v2"
-	)
-	; repositories or modules
-	:sources (
-		:github (
-			:exo-repo "deivastra/exo-repo" :branch "master")
-	)
-	:dependencies (
-		:exo-repo (
-			:foo "1.0")
+		:sources (
+			:github (
+				:exo-repo "deivastra/exo-repo" :branch "master")
+		)
+		:dependencies (
+			:exo-repo (
+				:foo "1.0")
+		)
 	)
 )
